@@ -1,0 +1,107 @@
+html {
+     font-size: 62.5%;
+     box-sizing: border-box;
+
+}
+*,*::before, *::after {
+    box-sizing: inherit;
+}
+.container {
+    width: 95%;
+    max-width: 45rem;
+    margin: 0 auto;
+}
+
+body{
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+}
+
+.card{
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 2rem;
+}
+
+.card__image{
+    display: block;
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 1rem ;
+    border-radius: 2rem;
+}
+
+.card__name{
+    color: white;
+    font-size: 2rem;
+    margin-left: 3.8rem;
+    
+}
+
+.card__descripcion{
+    font-size: 1.8rem;
+    color: gray;
+    margin-left: 3.8rem;
+    width: 70%;
+}
+
+.card__flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card__id{
+    font-size: 1.5rem;
+    color: cyan;
+   padding-left: 6rem;
+}
+
+.card__day{
+    font-size: 1.5rem;
+    color: gray;
+    padding-right: 6rem;
+    
+}
+
+.card__line{
+    border-top: 1px solid gray;
+    max-width: 80%;
+    margin: 0 auto 2rem auto;
+}
+.card__creation{
+    display: flex;
+    gap: 2rem;
+ 
+}
+
+.card__avatar{
+   width: 5rem;
+   margin-left: 4rem;
+   margin-bottom: 2rem;
+   position: relative;
+}
+
+.card__icon{
+    position: absolute;
+    left: 58rem;
+    bottom: 14.5rem;
+}
+
+.card__creator{
+    font-size: 1.5rem;
+    color: white;
+    position: relative;
+}
+
+.card__clock{
+    position: absolute;
+    right: 68rem;
+    bottom: 14.5rem;
+}
+span{
+    color: gray;
+}
+
+
+
+
+
